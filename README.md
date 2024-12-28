@@ -15,4 +15,8 @@ bun run dev
 # Import components
 bunx shadcn@latest add button card input separator
 bun add react-icons
+# Import Convex.dev backend
+bun add convex
+bunx convex dev
+bunx convex import --table tasks sampleData.jsonl
 ```
