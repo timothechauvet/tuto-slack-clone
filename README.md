@@ -13,6 +13,6 @@ bunx shadcn@latest init
 # Test
 bun run dev
 # Import components
-bunx shadcn@latest add button
-
+bunx shadcn@latest add button card input separator
+bun add react-icons
 ```
